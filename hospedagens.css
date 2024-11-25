@@ -1,0 +1,67 @@
+#viagens{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .row2{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://vocenaneve.com.br/wp-content/uploads/2022/07/st-moritz-nevado.jpg);
+    padding: 0 8%;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    width: 50%;
+}
+.ttx{
+    color: #ffffff;
+    font-size: 100px;
+}
+#explica{
+    color: white;
+    font-size: 12px;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+.card h5{
+    color: white;
+    backdrop-filter: blur (5px)
+}
+.card p{
+    color: white;
+    backdrop-filter: blur (5px)
+}
+.card1{
+ 
+    background-image: url(https://th.bing.com/th/id/OIP.QmM-ymb2L6U-ohWNY3wA7wAAAA?rs=1&pid=ImgDetMain);
+}
+.card2{
+    background-image: url(https://a0.muscache.com/im/pictures/aa63739a-8416-48ea-ac54-6a6d1c8587ba.jpg?im_w=320);
+}
+.card3{
+    background-image: url(https://th.bing.com/th/id/OIP.0zhIDME2-ve84LeLWpHgmwHaFg?rs=1&pid=ImgDetMain);
+}
+.card4{
+    background-image: url(https://th.bing.com/th/id/OIP.RbD6w_ZdFZ5eNPaqBow3ZQHaE8?rs=1&pid=ImgDetMain);
+}
